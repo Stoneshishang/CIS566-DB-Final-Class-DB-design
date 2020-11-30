@@ -1,0 +1,575 @@
+Snow_ID,Resorts,State,Future Day,Snow
+Snow_AB_1,Arapahoe Basin,CO,0,0
+Snow_AB_2,Arapahoe Basin,CO,1,0
+Snow_AB_3,Arapahoe Basin,CO,2,0
+Snow_AB_4,Arapahoe Basin,CO,3,0
+Snow_AB_5,Arapahoe Basin,CO,4,0
+Snow_AB_6,Arapahoe Basin,CO,5,6
+Snow_AB_7,Arapahoe Basin,CO,6,4
+Snow_AB_8,Arapahoe Basin,CO,7,4
+Snow_AB_9,Arapahoe Basin,CO,8,2
+Snow_AB_10,Arapahoe Basin,CO,9,0
+Snow_AB_11,Arapahoe Basin,CO,10,0
+Snow_AB_12,Arapahoe Basin,CO,11,0
+Snow_AB_13,Arapahoe Basin,CO,12,3
+Snow_AB_14,Arapahoe Basin,CO,13,0
+Snow_AS_1,Aspen Snowmass,CO,0,0
+Snow_AS_2,Aspen Snowmass,CO,1,0
+Snow_AS_3,Aspen Snowmass,CO,2,0
+Snow_AS_4,Aspen Snowmass,CO,3,1
+Snow_AS_5,Aspen Snowmass,CO,4,1
+Snow_AS_6,Aspen Snowmass,CO,5,5
+Snow_AS_7,Aspen Snowmass,CO,6,7
+Snow_AS_8,Aspen Snowmass,CO,7,3
+Snow_AS_9,Aspen Snowmass,CO,8,1
+Snow_AS_10,Aspen Snowmass,CO,9,0
+Snow_AS_11,Aspen Snowmass,CO,10,0
+Snow_AS_12,Aspen Snowmass,CO,11,1
+Snow_AS_13,Aspen Snowmass,CO,12,0
+Snow_AS_14,Aspen Snowmass,CO,13,0
+Snow_BC_1,Beaver Creek,CO,0,0
+Snow_BC_2,Beaver Creek,CO,1,0
+Snow_BC_3,Beaver Creek,CO,2,0
+Snow_BC_4,Beaver Creek,CO,3,0
+Snow_BC_5,Beaver Creek,CO,4,0
+Snow_BC_6,Beaver Creek,CO,5,8
+Snow_BC_7,Beaver Creek,CO,6,4
+Snow_BC_8,Beaver Creek,CO,7,6
+Snow_BC_9,Beaver Creek,CO,8,1
+Snow_BC_10,Beaver Creek,CO,9,0
+Snow_BC_11,Beaver Creek,CO,10,0
+Snow_BC_12,Beaver Creek,CO,11,2
+Snow_BC_13,Beaver Creek,CO,12,4
+Snow_BC_14,Beaver Creek,CO,13,0
+Snow_BR_1,Breckenridge,CO,0,0
+Snow_BR_2,Breckenridge,CO,1,0
+Snow_BR_3,Breckenridge,CO,2,0
+Snow_BR_4,Breckenridge,CO,3,0
+Snow_BR_5,Breckenridge,CO,4,0
+Snow_BR_6,Breckenridge,CO,5,6
+Snow_BR_7,Breckenridge,CO,6,9
+Snow_BR_8,Breckenridge,CO,7,4
+Snow_BR_9,Breckenridge,CO,8,1
+Snow_BR_10,Breckenridge,CO,9,0
+Snow_BR_11,Breckenridge,CO,10,0
+Snow_BR_12,Breckenridge,CO,11,1
+Snow_BR_13,Breckenridge,CO,12,1
+Snow_BR_14,Breckenridge,CO,13,0
+Snow_CM_1,Copper Mountain,CO,0,0
+Snow_CM_2,Copper Mountain,CO,1,0
+Snow_CM_3,Copper Mountain,CO,2,0
+Snow_CM_4,Copper Mountain,CO,3,0
+Snow_CM_5,Copper Mountain,CO,4,1
+Snow_CM_6,Copper Mountain,CO,5,8
+Snow_CM_7,Copper Mountain,CO,6,7
+Snow_CM_8,Copper Mountain,CO,7,4
+Snow_CM_9,Copper Mountain,CO,8,3
+Snow_CM_10,Copper Mountain,CO,9,0
+Snow_CM_11,Copper Mountain,CO,10,0
+Snow_CM_12,Copper Mountain,CO,11,0
+Snow_CM_13,Copper Mountain,CO,12,0
+Snow_CM_14,Copper Mountain,CO,13,0
+Snow_CB_1,Crestes Butte,CO,0,0
+Snow_CB_2,Crestes Butte,CO,1,0
+Snow_CB_3,Crestes Butte,CO,2,0
+Snow_CB_4,Crestes Butte,CO,3,0
+Snow_CB_5,Crestes Butte,CO,4,0
+Snow_CB_6,Crestes Butte,CO,5,3
+Snow_CB_7,Crestes Butte,CO,6,4
+Snow_CB_8,Crestes Butte,CO,7,6
+Snow_CB_9,Crestes Butte,CO,8,0
+Snow_CB_10,Crestes Butte,CO,9,0
+Snow_CB_11,Crestes Butte,CO,10,0
+Snow_CB_12,Crestes Butte,CO,11,2
+Snow_CB_13,Crestes Butte,CO,12,0
+Snow_CB_14,Crestes Butte,CO,13,0
+Snow_EM_1,Eldora Mountain,CO,0,0
+Snow_EM_2,Eldora Mountain,CO,1,0
+Snow_EM_3,Eldora Mountain,CO,2,0
+Snow_EM_4,Eldora Mountain,CO,3,0
+Snow_EM_5,Eldora Mountain,CO,4,0
+Snow_EM_6,Eldora Mountain,CO,5,4
+Snow_EM_7,Eldora Mountain,CO,6,5
+Snow_EM_8,Eldora Mountain,CO,7,2
+Snow_EM_9,Eldora Mountain,CO,8,0
+Snow_EM_10,Eldora Mountain,CO,9,0
+Snow_EM_11,Eldora Mountain,CO,10,0
+Snow_EM_12,Eldora Mountain,CO,11,0
+Snow_EM_13,Eldora Mountain,CO,12,0
+Snow_EM_14,Eldora Mountain,CO,13,0
+Snow_KS_1,Keystone,CO,0,0
+Snow_KS_2,Keystone,CO,1,0
+Snow_KS_3,Keystone,CO,2,0
+Snow_KS_4,Keystone,CO,3,1
+Snow_KS_5,Keystone,CO,4,1
+Snow_KS_6,Keystone,CO,5,10
+Snow_KS_7,Keystone,CO,6,12
+Snow_KS_8,Keystone,CO,7,5
+Snow_KS_9,Keystone,CO,8,0
+Snow_KS_10,Keystone,CO,9,0
+Snow_KS_11,Keystone,CO,10,0
+Snow_KS_12,Keystone,CO,11,0
+Snow_KS_13,Keystone,CO,12,0
+Snow_KS_14,Keystone,CO,13,0
+Snow_SB_1,Steamboat,CO,0,0
+Snow_SB_2,Steamboat,CO,1,0
+Snow_SB_3,Steamboat,CO,2,1
+Snow_SB_4,Steamboat,CO,3,1
+Snow_SB_5,Steamboat,CO,4,3
+Snow_SB_6,Steamboat,CO,5,6
+Snow_SB_7,Steamboat,CO,6,7
+Snow_SB_8,Steamboat,CO,7,2
+Snow_SB_9,Steamboat,CO,8,0
+Snow_SB_10,Steamboat,CO,9,0
+Snow_SB_11,Steamboat,CO,10,0
+Snow_SB_12,Steamboat,CO,11,3
+Snow_SB_13,Steamboat,CO,12,0
+Snow_SB_14,Steamboat,CO,13,0
+Snow_TR_1,Telluride,CO,0,0
+Snow_TR_2,Telluride,CO,1,0
+Snow_TR_3,Telluride,CO,2,0
+Snow_TR_4,Telluride,CO,3,1
+Snow_TR_5,Telluride,CO,4,2
+Snow_TR_6,Telluride,CO,5,9
+Snow_TR_7,Telluride,CO,6,8
+Snow_TR_8,Telluride,CO,7,4
+Snow_TR_9,Telluride,CO,8,2
+Snow_TR_10,Telluride,CO,9,0
+Snow_TR_11,Telluride,CO,10,0
+Snow_TR_12,Telluride,CO,11,0
+Snow_TR_13,Telluride,CO,12,0
+Snow_TR_14,Telluride,CO,13,0
+Snow_VL_1,Vail,CO,0,0
+Snow_VL_2,Vail,CO,1,0
+Snow_VL_3,Vail,CO,2,1
+Snow_VL_4,Vail,CO,3,1
+Snow_VL_5,Vail,CO,4,2
+Snow_VL_6,Vail,CO,5,11
+Snow_VL_7,Vail,CO,6,8
+Snow_VL_8,Vail,CO,7,7
+Snow_VL_9,Vail,CO,8,1
+Snow_VL_10,Vail,CO,9,0
+Snow_VL_11,Vail,CO,10,0
+Snow_VL_12,Vail,CO,11,0
+Snow_VL_13,Vail,CO,12,0
+Snow_VL_14,Vail,CO,13,0
+Snow_WP_1,Winter Park,CO,0,0
+Snow_WP_2,Winter Park,CO,1,1
+Snow_WP_3,Winter Park,CO,2,1
+Snow_WP_4,Winter Park,CO,3,0
+Snow_WP_5,Winter Park,CO,4,3
+Snow_WP_6,Winter Park,CO,5,7
+Snow_WP_7,Winter Park,CO,6,11
+Snow_WP_8,Winter Park,CO,7,12
+Snow_WP_9,Winter Park,CO,8,3
+Snow_WP_10,Winter Park,CO,9,1
+Snow_WP_11,Winter Park,CO,10,0
+Snow_WP_12,Winter Park,CO,11,0
+Snow_WP_13,Winter Park,CO,12,0
+Snow_WP_14,Winter Park,CO,13,1
+Snow_AT_1,Alta,UT,0,0
+Snow_AT_2,Alta,UT,1,0
+Snow_AT_3,Alta,UT,2,1
+Snow_AT_4,Alta,UT,3,0
+Snow_AT_5,Alta,UT,4,4
+Snow_AT_6,Alta,UT,5,9
+Snow_AT_7,Alta,UT,6,13
+Snow_AT_8,Alta,UT,7,8
+Snow_AT_9,Alta,UT,8,1
+Snow_AT_10,Alta,UT,9,0
+Snow_AT_11,Alta,UT,10,0
+Snow_AT_12,Alta,UT,11,0
+Snow_AT_13,Alta,UT,12,0
+Snow_AT_14,Alta,UT,13,2
+Snow_BT_1,Brighton,UT,0,0
+Snow_BT_2,Brighton,UT,1,0
+Snow_BT_3,Brighton,UT,2,0
+Snow_BT_4,Brighton,UT,3,0
+Snow_BT_5,Brighton,UT,4,2
+Snow_BT_6,Brighton,UT,5,4
+Snow_BT_7,Brighton,UT,6,7
+Snow_BT_8,Brighton,UT,7,4
+Snow_BT_9,Brighton,UT,8,1
+Snow_BT_10,Brighton,UT,9,0
+Snow_BT_11,Brighton,UT,10,0
+Snow_BT_12,Brighton,UT,11,0
+Snow_BT_13,Brighton,UT,12,0
+Snow_BT_14,Brighton,UT,13,0
+Snow_DV_1,Deer Valley,UT,0,0
+Snow_DV_2,Deer Valley,UT,1,0
+Snow_DV_3,Deer Valley,UT,2,0
+Snow_DV_4,Deer Valley,UT,3,0
+Snow_DV_5,Deer Valley,UT,4,1
+Snow_DV_6,Deer Valley,UT,5,3
+Snow_DV_7,Deer Valley,UT,6,5
+Snow_DV_8,Deer Valley,UT,7,5
+Snow_DV_9,Deer Valley,UT,8,1
+Snow_DV_10,Deer Valley,UT,9,0
+Snow_DV_11,Deer Valley,UT,10,0
+Snow_DV_12,Deer Valley,UT,11,0
+Snow_DV_13,Deer Valley,UT,12,0
+Snow_DV_14,Deer Valley,UT,13,1
+Snow_PC_1,Park City,UT,0,0
+Snow_PC_2,Park City,UT,1,1
+Snow_PC_3,Park City,UT,2,1
+Snow_PC_4,Park City,UT,3,0
+Snow_PC_5,Park City,UT,4,3
+Snow_PC_6,Park City,UT,5,9
+Snow_PC_7,Park City,UT,6,13
+Snow_PC_8,Park City,UT,7,11
+Snow_PC_9,Park City,UT,8,3
+Snow_PC_10,Park City,UT,9,3
+Snow_PC_11,Park City,UT,10,0
+Snow_PC_12,Park City,UT,11,0
+Snow_PC_13,Park City,UT,12,0
+Snow_PC_14,Park City,UT,13,0
+Snow_SBD_1,Snowbird,UT,0,0
+Snow_SBD_2,Snowbird,UT,1,0
+Snow_SBD_3,Snowbird,UT,2,1
+Snow_SBD_4,Snowbird,UT,3,0
+Snow_SBD_5,Snowbird,UT,4,2
+Snow_SBD_6,Snowbird,UT,5,5
+Snow_SBD_7,Snowbird,UT,6,5
+Snow_SBD_8,Snowbird,UT,7,4
+Snow_SBD_9,Snowbird,UT,8,2
+Snow_SBD_10,Snowbird,UT,9,0
+Snow_SBD_11,Snowbird,UT,10,0
+Snow_SBD_12,Snowbird,UT,11,0
+Snow_SBD_13,Snowbird,UT,12,0
+Snow_SBD_14,Snowbird,UT,13,0
+Snow_SBS_1,Snowbasin,UT,0,0
+Snow_SBS_2,Snowbasin,UT,1,0
+Snow_SBS_3,Snowbasin,UT,2,1
+Snow_SBS_4,Snowbasin,UT,3,0
+Snow_SBS_5,Snowbasin,UT,4,3
+Snow_SBS_6,Snowbasin,UT,5,8
+Snow_SBS_7,Snowbasin,UT,6,9
+Snow_SBS_8,Snowbasin,UT,7,8
+Snow_SBS_9,Snowbasin,UT,8,2
+Snow_SBS_10,Snowbasin,UT,9,1
+Snow_SBS_11,Snowbasin,UT,10,0
+Snow_SBS_12,Snowbasin,UT,11,0
+Snow_SBS_13,Snowbasin,UT,12,0
+Snow_SBS_14,Snowbasin,UT,13,1
+Snow_SLT_1,Solitude,UT,0,0
+Snow_SLT_2,Solitude,UT,1,0
+Snow_SLT_3,Solitude,UT,2,0
+Snow_SLT_4,Solitude,UT,3,1
+Snow_SLT_5,Solitude,UT,4,0
+Snow_SLT_6,Solitude,UT,5,2
+Snow_SLT_7,Solitude,UT,6,3
+Snow_SLT_8,Solitude,UT,7,0
+Snow_SLT_9,Solitude,UT,8,0
+Snow_SLT_10,Solitude,UT,9,0
+Snow_SLT_11,Solitude,UT,10,0
+Snow_SLT_12,Solitude,UT,11,0
+Snow_SLT_13,Solitude,UT,12,0
+Snow_SLT_14,Solitude,UT,13,0
+Snow_BB_1,Big Bear,CA,0,0
+Snow_BB_2,Big Bear,CA,1,0
+Snow_BB_3,Big Bear,CA,2,0
+Snow_BB_4,Big Bear,CA,3,1
+Snow_BB_5,Big Bear,CA,4,0
+Snow_BB_6,Big Bear,CA,5,3
+Snow_BB_7,Big Bear,CA,6,4
+Snow_BB_8,Big Bear,CA,7,0
+Snow_BB_9,Big Bear,CA,8,0
+Snow_BB_10,Big Bear,CA,9,0
+Snow_BB_11,Big Bear,CA,10,0
+Snow_BB_12,Big Bear,CA,11,0
+Snow_BB_13,Big Bear,CA,12,0
+Snow_BB_14,Big Bear,CA,13,0
+Snow_JM_1,June Mountain ,CA,0,0
+Snow_JM_2,June Mountain ,CA,1,1
+Snow_JM_3,June Mountain ,CA,2,3
+Snow_JM_4,June Mountain ,CA,3,2
+Snow_JM_5,June Mountain ,CA,4,0
+Snow_JM_6,June Mountain ,CA,5,5
+Snow_JM_7,June Mountain ,CA,6,17
+Snow_JM_8,June Mountain ,CA,7,5
+Snow_JM_9,June Mountain ,CA,8,1
+Snow_JM_10,June Mountain ,CA,9,0
+Snow_JM_11,June Mountain ,CA,10,0
+Snow_JM_12,June Mountain ,CA,11,0
+Snow_JM_13,June Mountain ,CA,12,0
+Snow_JM_14,June Mountain ,CA,13,0
+Snow_HV_1,Heavenly,CA,0,0
+Snow_HV_2,Heavenly,CA,1,1
+Snow_HV_3,Heavenly,CA,2,3
+Snow_HV_4,Heavenly,CA,3,1
+Snow_HV_5,Heavenly,CA,4,0
+Snow_HV_6,Heavenly,CA,5,4
+Snow_HV_7,Heavenly,CA,6,16
+Snow_HV_8,Heavenly,CA,7,7
+Snow_HV_9,Heavenly,CA,8,1
+Snow_HV_10,Heavenly,CA,9,0
+Snow_HV_11,Heavenly,CA,10,0
+Snow_HV_12,Heavenly,CA,11,0
+Snow_HV_13,Heavenly,CA,12,0
+Snow_HV_14,Heavenly,CA,13,0
+Snow_KW_1,Kirkwood,CA,0,0
+Snow_KW_2,Kirkwood,CA,1,1
+Snow_KW_3,Kirkwood,CA,2,5
+Snow_KW_4,Kirkwood,CA,3,2
+Snow_KW_5,Kirkwood,CA,4,0
+Snow_KW_6,Kirkwood,CA,5,7
+Snow_KW_7,Kirkwood,CA,6,18
+Snow_KW_8,Kirkwood,CA,7,5
+Snow_KW_9,Kirkwood,CA,8,0
+Snow_KW_10,Kirkwood,CA,9,0
+Snow_KW_11,Kirkwood,CA,10,0
+Snow_KW_12,Kirkwood,CA,11,0
+Snow_KW_13,Kirkwood,CA,12,0
+Snow_KW_14,Kirkwood,CA,13,0
+Snow_MMT_1,Mammoth,CA,0,0
+Snow_MMT_2,Mammoth,CA,1,1
+Snow_MMT_3,Mammoth,CA,2,2
+Snow_MMT_4,Mammoth,CA,3,2
+Snow_MMT_5,Mammoth,CA,4,0
+Snow_MMT_6,Mammoth,CA,5,8
+Snow_MMT_7,Mammoth,CA,6,13
+Snow_MMT_8,Mammoth,CA,7,8
+Snow_MMT_9,Mammoth,CA,8,3
+Snow_MMT_10,Mammoth,CA,9,0
+Snow_MMT_11,Mammoth,CA,10,0
+Snow_MMT_12,Mammoth,CA,11,0
+Snow_MMT_13,Mammoth,CA,12,0
+Snow_MMT_14,Mammoth,CA,13,0
+Snow_NS_1,Northstar,CA,0,0
+Snow_NS_2,Northstar,CA,1,1
+Snow_NS_3,Northstar,CA,2,4
+Snow_NS_4,Northstar,CA,3,5
+Snow_NS_5,Northstar,CA,4,0
+Snow_NS_6,Northstar,CA,5,9
+Snow_NS_7,Northstar,CA,6,19
+Snow_NS_8,Northstar,CA,7,8
+Snow_NS_9,Northstar,CA,8,3
+Snow_NS_10,Northstar,CA,9,0
+Snow_NS_11,Northstar,CA,10,0
+Snow_NS_12,Northstar,CA,11,0
+Snow_NS_13,Northstar,CA,12,0
+Snow_NS_14,Northstar,CA,13,0
+Snow_SV_1,Squaw Valley,CA,0,0
+Snow_SV_2,Squaw Valley,CA,1,1
+Snow_SV_3,Squaw Valley,CA,2,0
+Snow_SV_4,Squaw Valley,CA,3,0
+Snow_SV_5,Squaw Valley,CA,4,0
+Snow_SV_6,Squaw Valley,CA,5,15
+Snow_SV_7,Squaw Valley,CA,6,12
+Snow_SV_8,Squaw Valley,CA,7,6
+Snow_SV_9,Squaw Valley,CA,8,5
+Snow_SV_10,Squaw Valley,CA,9,0
+Snow_SV_11,Squaw Valley,CA,10,0
+Snow_SV_12,Squaw Valley,CA,11,0
+Snow_SV_13,Squaw Valley,CA,12,0
+Snow_SV_14,Squaw Valley,CA,13,1
+Snow_JH_1,Jackson Hole,WY,0,0
+Snow_JH_2,Jackson Hole,WY,1,1
+Snow_JH_3,Jackson Hole,WY,2,0
+Snow_JH_4,Jackson Hole,WY,3,0
+Snow_JH_5,Jackson Hole,WY,4,0
+Snow_JH_6,Jackson Hole,WY,5,15
+Snow_JH_7,Jackson Hole,WY,6,13
+Snow_JH_8,Jackson Hole,WY,7,7
+Snow_JH_9,Jackson Hole,WY,8,3
+Snow_JH_10,Jackson Hole,WY,9,0
+Snow_JH_11,Jackson Hole,WY,10,0
+Snow_JH_12,Jackson Hole,WY,11,0
+Snow_JH_13,Jackson Hole,WY,12,0
+Snow_JH_14,Jackson Hole,WY,13,2
+Snow_GT_1,Garnd Targhee,WY,0,0
+Snow_GT_2,Garnd Targhee,WY,1,0
+Snow_GT_3,Garnd Targhee,WY,2,0
+Snow_GT_4,Garnd Targhee,WY,3,0
+Snow_GT_5,Garnd Targhee,WY,4,0
+Snow_GT_6,Garnd Targhee,WY,5,9
+Snow_GT_7,Garnd Targhee,WY,6,10
+Snow_GT_8,Garnd Targhee,WY,7,5
+Snow_GT_9,Garnd Targhee,WY,8,1
+Snow_GT_10,Garnd Targhee,WY,9,0
+Snow_GT_11,Garnd Targhee,WY,10,0
+Snow_GT_12,Garnd Targhee,WY,11,0
+Snow_GT_13,Garnd Targhee,WY,12,0
+Snow_GT_14,Garnd Targhee,WY,13,0
+Snow_BS_1,Big Sky,MT,0,1
+Snow_BS_2,Big Sky,MT,1,3
+Snow_BS_3,Big Sky,MT,2,4
+Snow_BS_4,Big Sky,MT,3,0
+Snow_BS_5,Big Sky,MT,4,0
+Snow_BS_6,Big Sky,MT,5,6
+Snow_BS_7,Big Sky,MT,6,7
+Snow_BS_8,Big Sky,MT,7,6
+Snow_BS_9,Big Sky,MT,8,10
+Snow_BS_10,Big Sky,MT,9,2
+Snow_BS_11,Big Sky,MT,10,0
+Snow_BS_12,Big Sky,MT,11,0
+Snow_BS_13,Big Sky,MT,12,0
+Snow_BS_14,Big Sky,MT,13,0
+Snow_TAO_1,Taos,NM,0,0
+Snow_TAO_2,Taos,NM,1,0
+Snow_TAO_3,Taos,NM,2,0
+Snow_TAO_4,Taos,NM,3,0
+Snow_TAO_5,Taos,NM,4,1
+Snow_TAO_6,Taos,NM,5,5
+Snow_TAO_7,Taos,NM,6,6
+Snow_TAO_8,Taos,NM,7,3
+Snow_TAO_9,Taos,NM,8,2
+Snow_TAO_10,Taos,NM,9,4
+Snow_TAO_11,Taos,NM,10,0
+Snow_TAO_12,Taos,NM,11,0
+Snow_TAO_13,Taos,NM,12,0
+Snow_TAO_14,Taos,NM,13,0
+Snow_KT_1,Killington,VT,0,0
+Snow_KT_2,Killington,VT,1,0
+Snow_KT_3,Killington,VT,2,0
+Snow_KT_4,Killington,VT,3,0
+Snow_KT_5,Killington,VT,4,0
+Snow_KT_6,Killington,VT,5,0
+Snow_KT_7,Killington,VT,6,0
+Snow_KT_8,Killington,VT,7,0
+Snow_KT_9,Killington,VT,8,0
+Snow_KT_10,Killington,VT,9,0
+Snow_KT_11,Killington,VT,10,3
+Snow_KT_12,Killington,VT,11,7
+Snow_KT_13,Killington,VT,12,0
+Snow_KT_14,Killington,VT,13,0
+Snow_STN_1,Stratton,VT,0,0
+Snow_STN_2,Stratton,VT,1,0
+Snow_STN_3,Stratton,VT,2,0
+Snow_STN_4,Stratton,VT,3,0
+Snow_STN_5,Stratton,VT,4,0
+Snow_STN_6,Stratton,VT,5,0
+Snow_STN_7,Stratton,VT,6,0
+Snow_STN_8,Stratton,VT,7,0
+Snow_STN_9,Stratton,VT,8,0
+Snow_STN_10,Stratton,VT,9,1
+Snow_STN_11,Stratton,VT,10,5
+Snow_STN_12,Stratton,VT,11,7
+Snow_STN_13,Stratton,VT,12,0
+Snow_STN_14,Stratton,VT,13,0
+Snow_SUGB_1,Sugarbush,VT,0,0
+Snow_SUGB_2,Sugarbush,VT,1,0
+Snow_SUGB_3,Sugarbush,VT,2,0
+Snow_SUGB_4,Sugarbush,VT,3,0
+Snow_SUGB_5,Sugarbush,VT,4,0
+Snow_SUGB_6,Sugarbush,VT,5,0
+Snow_SUGB_7,Sugarbush,VT,6,0
+Snow_SUGB_8,Sugarbush,VT,7,0
+Snow_SUGB_9,Sugarbush,VT,8,0
+Snow_SUGB_10,Sugarbush,VT,9,2
+Snow_SUGB_11,Sugarbush,VT,10,5
+Snow_SUGB_12,Sugarbush,VT,11,6
+Snow_SUGB_13,Sugarbush,VT,12,3
+Snow_SUGB_14,Sugarbush,VT,13,0
+Snow_STW_1,Stowe,VT,0,0
+Snow_STW_2,Stowe,VT,1,0
+Snow_STW_3,Stowe,VT,2,0
+Snow_STW_4,Stowe,VT,3,0
+Snow_STW_5,Stowe,VT,4,0
+Snow_STW_6,Stowe,VT,5,0
+Snow_STW_7,Stowe,VT,6,0
+Snow_STW_8,Stowe,VT,7,0
+Snow_STW_9,Stowe,VT,8,1
+Snow_STW_10,Stowe,VT,9,1
+Snow_STW_11,Stowe,VT,10,2
+Snow_STW_12,Stowe,VT,11,4
+Snow_STW_13,Stowe,VT,12,0
+Snow_STW_14,Stowe,VT,13,0
+Snow_OK_1,Okemo,VT,0,0
+Snow_OK_2,Okemo,VT,1,0
+Snow_OK_3,Okemo,VT,2,0
+Snow_OK_4,Okemo,VT,3,0
+Snow_OK_5,Okemo,VT,4,0
+Snow_OK_6,Okemo,VT,5,0
+Snow_OK_7,Okemo,VT,6,0
+Snow_OK_8,Okemo,VT,7,0
+Snow_OK_9,Okemo,VT,8,0
+Snow_OK_10,Okemo,VT,9,0
+Snow_OK_11,Okemo,VT,10,8
+Snow_OK_12,Okemo,VT,11,3
+Snow_OK_13,Okemo,VT,12,4
+Snow_OK_14,Okemo,VT,13,0
+Snow_MSN_1,Mount Snow,VT,0,0
+Snow_MSN_2,Mount Snow,VT,1,0
+Snow_MSN_3,Mount Snow,VT,2,0
+Snow_MSN_4,Mount Snow,VT,3,0
+Snow_MSN_5,Mount Snow,VT,4,0
+Snow_MSN_6,Mount Snow,VT,5,0
+Snow_MSN_7,Mount Snow,VT,6,0
+Snow_MSN_8,Mount Snow,VT,7,0
+Snow_MSN_9,Mount Snow,VT,8,0
+Snow_MSN_10,Mount Snow,VT,9,2
+Snow_MSN_11,Mount Snow,VT,10,6
+Snow_MSN_12,Mount Snow,VT,11,7
+Snow_MSN_13,Mount Snow,VT,12,0
+Snow_MSN_14,Mount Snow,VT,13,0
+Snow_SUGL_1,Sugarloaf,ME,0,0
+Snow_SUGL_2,Sugarloaf,ME,1,0
+Snow_SUGL_3,Sugarloaf,ME,2,0
+Snow_SUGL_4,Sugarloaf,ME,3,0
+Snow_SUGL_5,Sugarloaf,ME,4,0
+Snow_SUGL_6,Sugarloaf,ME,5,0
+Snow_SUGL_7,Sugarloaf,ME,6,0
+Snow_SUGL_8,Sugarloaf,ME,7,0
+Snow_SUGL_9,Sugarloaf,ME,8,0
+Snow_SUGL_10,Sugarloaf,ME,9,0
+Snow_SUGL_11,Sugarloaf,ME,10,5
+Snow_SUGL_12,Sugarloaf,ME,11,5
+Snow_SUGL_13,Sugarloaf,ME,12,0
+Snow_SUGL_14,Sugarloaf,ME,13,0
+Snow_SR_1,Sunday River,ME ,0,0
+Snow_SR_2,Sunday River,ME ,1,0
+Snow_SR_3,Sunday River,ME ,2,0
+Snow_SR_4,Sunday River,ME ,3,0
+Snow_SR_5,Sunday River,ME ,4,0
+Snow_SR_6,Sunday River,ME ,5,0
+Snow_SR_7,Sunday River,ME ,6,0
+Snow_SR_8,Sunday River,ME ,7,0
+Snow_SR_9,Sunday River,ME ,8,0
+Snow_SR_10,Sunday River,ME ,9,1
+Snow_SR_11,Sunday River,ME ,10,5
+Snow_SR_12,Sunday River,ME ,11,7
+Snow_SR_13,Sunday River,ME ,12,0
+Snow_SR_14,Sunday River,ME ,13,0
+Snow_CYM_1,Crystal Mountain,WA,0,0
+Snow_CYM_2,Crystal Mountain,WA,1,0
+Snow_CYM_3,Crystal Mountain,WA,2,0
+Snow_CYM_4,Crystal Mountain,WA,3,0
+Snow_CYM_5,Crystal Mountain,WA,4,3
+Snow_CYM_6,Crystal Mountain,WA,5,7
+Snow_CYM_7,Crystal Mountain,WA,6,6
+Snow_CYM_8,Crystal Mountain,WA,7,5
+Snow_CYM_9,Crystal Mountain,WA,8,1
+Snow_CYM_10,Crystal Mountain,WA,9,0
+Snow_CYM_11,Crystal Mountain,WA,10,0
+Snow_CYM_12,Crystal Mountain,WA,11,0
+Snow_CYM_13,Crystal Mountain,WA,12,0
+Snow_CYM_14,Crystal Mountain,WA,13,0
+Snow_SNQ_1,Snoqualmie,WA,0,0
+Snow_SNQ_2,Snoqualmie,WA,1,0
+Snow_SNQ_3,Snoqualmie,WA,2,0
+Snow_SNQ_4,Snoqualmie,WA,3,0
+Snow_SNQ_5,Snoqualmie,WA,4,1
+Snow_SNQ_6,Snoqualmie,WA,5,9
+Snow_SNQ_7,Snoqualmie,WA,6,3
+Snow_SNQ_8,Snoqualmie,WA,7,2
+Snow_SNQ_9,Snoqualmie,WA,8,0
+Snow_SNQ_10,Snoqualmie,WA,9,0
+Snow_SNQ_11,Snoqualmie,WA,10,0
+Snow_SNQ_12,Snoqualmie,WA,11,0
+Snow_SNQ_13,Snoqualmie,WA,12,0
+Snow_SNQ_14,Snoqualmie,WA,13,0
+Snow_SP_1,Stevens Pass,WA,0,0
+Snow_SP_2,Stevens Pass,WA,1,0
+Snow_SP_3,Stevens Pass,WA,2,0
+Snow_SP_4,Stevens Pass,WA,3,0
+Snow_SP_5,Stevens Pass,WA,4,4
+Snow_SP_6,Stevens Pass,WA,5,5
+Snow_SP_7,Stevens Pass,WA,6,1
+Snow_SP_8,Stevens Pass,WA,7,7
+Snow_SP_9,Stevens Pass,WA,8,3
+Snow_SP_10,Stevens Pass,WA,9,0
+Snow_SP_11,Stevens Pass,WA,10,0
+Snow_SP_12,Stevens Pass,WA,11,0
+Snow_SP_13,Stevens Pass,WA,12,0
+Snow_SP_14,Stevens Pass,WA,13,0

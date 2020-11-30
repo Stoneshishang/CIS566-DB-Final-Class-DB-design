@@ -1,0 +1,211 @@
+Flight_ID,Airport Code,State,City,Future_Day,Price
+Flight_DEN_1,DEN,CO,Denver,0,295
+Flight_DEN_2,DEN,CO,Denver,1,275
+Flight_DEN_3,DEN,CO,Denver,2,200
+Flight_DEN_4,DEN,CO,Denver,3,200
+Flight_DEN_5,DEN,CO,Denver,4,180
+Flight_DEN_6,DEN,CO,Denver,5,200
+Flight_DEN_7,DEN,CO,Denver,6,180
+Flight_DEN_8,DEN,CO,Denver,7,180
+Flight_DEN_9,DEN,CO,Denver,8,130
+Flight_DEN_10,DEN,CO,Denver,9,99
+Flight_DEN_11,DEN,CO,Denver,10,67
+Flight_DEN_12,DEN,CO,Denver,11,89
+Flight_DEN_13,DEN,CO,Denver,12,150
+Flight_DEN_14,DEN,CO,Denver,13,130
+Flight_ASE_1,ASE,CO,Aspen,0,256
+Flight_ASE_2,ASE,CO,Aspen,1,242
+Flight_ASE_3,ASE,CO,Aspen,2,222
+Flight_ASE_4,ASE,CO,Aspen,3,222
+Flight_ASE_5,ASE,CO,Aspen,4,210
+Flight_ASE_6,ASE,CO,Aspen,5,256
+Flight_ASE_7,ASE,CO,Aspen,6,234
+Flight_ASE_8,ASE,CO,Aspen,7,202
+Flight_ASE_9,ASE,CO,Aspen,8,200
+Flight_ASE_10,ASE,CO,Aspen,9,201
+Flight_ASE_11,ASE,CO,Aspen,10,212
+Flight_ASE_12,ASE,CO,Aspen,11,220
+Flight_ASE_13,ASE,CO,Aspen,12,198
+Flight_ASE_14,ASE,CO,Aspen,13,196
+Flight_HDN_1,HDN,CO,Hayden,0,304
+Flight_HDN_2,HDN,CO,Hayden,1,296
+Flight_HDN_3,HDN,CO,Hayden,2,282
+Flight_HDN_4,HDN,CO,Hayden,3,282
+Flight_HDN_5,HDN,CO,Hayden,4,279
+Flight_HDN_6,HDN,CO,Hayden,5,286
+Flight_HDN_7,HDN,CO,Hayden,6,282
+Flight_HDN_8,HDN,CO,Hayden,7,256
+Flight_HDN_9,HDN,CO,Hayden,8,246
+Flight_HDN_10,HDN,CO,Hayden,9,224
+Flight_HDN_11,HDN,CO,Hayden,10,214
+Flight_HDN_12,HDN,CO,Hayden,11,216
+Flight_HDN_13,HDN,CO,Hayden,12,218
+Flight_HDN_14,HDN,CO,Hayden,13,228
+Flight_MTJ_1,MTJ,CO,Montrose,0,298
+Flight_MTJ_2,MTJ,CO,Montrose,1,288
+Flight_MTJ_3,MTJ,CO,Montrose,2,280
+Flight_MTJ_4,MTJ,CO,Montrose,3,283
+Flight_MTJ_5,MTJ,CO,Montrose,4,289
+Flight_MTJ_6,MTJ,CO,Montrose,5,296
+Flight_MTJ_7,MTJ,CO,Montrose,6,288
+Flight_MTJ_8,MTJ,CO,Montrose,7,278
+Flight_MTJ_9,MTJ,CO,Montrose,8,268
+Flight_MTJ_10,MTJ,CO,Montrose,9,268
+Flight_MTJ_11,MTJ,CO,Montrose,10,246
+Flight_MTJ_12,MTJ,CO,Montrose,11,248
+Flight_MTJ_13,MTJ,CO,Montrose,12,267
+Flight_MTJ_14,MTJ,CO,Montrose,13,254
+Flight_SLC_1,SLC,UT,Salt Lake City,0,555
+Flight_SLC_2,SLC,UT,Salt Lake City,1,445
+Flight_SLC_3,SLC,UT,Salt Lake City,2,310
+Flight_SLC_4,SLC,UT,Salt Lake City,3,300
+Flight_SLC_5,SLC,UT,Salt Lake City,4,350
+Flight_SLC_6,SLC,UT,Salt Lake City,5,450
+Flight_SLC_7,SLC,UT,Salt Lake City,6,350
+Flight_SLC_8,SLC,UT,Salt Lake City,7,400
+Flight_SLC_9,SLC,UT,Salt Lake City,8,350
+Flight_SLC_10,SLC,UT,Salt Lake City,9,310
+Flight_SLC_11,SLC,UT,Salt Lake City,10,300
+Flight_SLC_12,SLC,UT,Salt Lake City,11,310
+Flight_SLC_13,SLC,UT,Salt Lake City,12,350
+Flight_SLC_14,SLC,UT,Salt Lake City,13,320
+Flight_LAX_1,LAX,CA,Los Angeles,0,600
+Flight_LAX_2,LAX,CA,Los Angeles,1,500
+Flight_LAX_3,LAX,CA,Los Angeles,2,450
+Flight_LAX_4,LAX,CA,Los Angeles,3,400
+Flight_LAX_5,LAX,CA,Los Angeles,4,400
+Flight_LAX_6,LAX,CA,Los Angeles,5,510
+Flight_LAX_7,LAX,CA,Los Angeles,6,410
+Flight_LAX_8,LAX,CA,Los Angeles,7,412
+Flight_LAX_9,LAX,CA,Los Angeles,8,390
+Flight_LAX_10,LAX,CA,Los Angeles,9,380
+Flight_LAX_11,LAX,CA,Los Angeles,10,295
+Flight_LAX_12,LAX,CA,Los Angeles,11,295
+Flight_LAX_13,LAX,CA,Los Angeles,12,365
+Flight_LAX_14,LAX,CA,Los Angeles,13,330
+Flight_RNO_1,RNO,CA,Reno,0,320
+Flight_RNO_2,RNO,CA,Reno,1,310
+Flight_RNO_3,RNO,CA,Reno,2,300
+Flight_RNO_4,RNO,CA,Reno,3,326
+Flight_RNO_5,RNO,CA,Reno,4,326
+Flight_RNO_6,RNO,CA,Reno,5,352
+Flight_RNO_7,RNO,CA,Reno,6,352
+Flight_RNO_8,RNO,CA,Reno,7,356
+Flight_RNO_9,RNO,CA,Reno,8,336
+Flight_RNO_10,RNO,CA,Reno,9,310
+Flight_RNO_11,RNO,CA,Reno,10,309
+Flight_RNO_12,RNO,CA,Reno,11,312
+Flight_RNO_13,RNO,CA,Reno,12,356
+Flight_RNO_14,RNO,CA,Reno,13,362
+Flight_SMF_1,SMF,CA,Sacramento ,0,398
+Flight_SMF_2,SMF,CA,Sacramento ,1,380
+Flight_SMF_3,SMF,CA,Sacramento ,2,326
+Flight_SMF_4,SMF,CA,Sacramento ,3,324
+Flight_SMF_5,SMF,CA,Sacramento ,4,322
+Flight_SMF_6,SMF,CA,Sacramento ,5,327
+Flight_SMF_7,SMF,CA,Sacramento ,6,326
+Flight_SMF_8,SMF,CA,Sacramento ,7,318
+Flight_SMF_9,SMF,CA,Sacramento ,8,308
+Flight_SMF_10,SMF,CA,Sacramento ,9,335
+Flight_SMF_11,SMF,CA,Sacramento ,10,325
+Flight_SMF_12,SMF,CA,Sacramento ,11,310
+Flight_SMF_13,SMF,CA,Sacramento ,12,308
+Flight_SMF_14,SMF,CA,Sacramento ,13,302
+Flight_JAC_1,JAC,WY,Jackson,0,518
+Flight_JAC_2,JAC,WY,Jackson,1,508
+Flight_JAC_3,JAC,WY,Jackson,2,488
+Flight_JAC_4,JAC,WY,Jackson,3,426
+Flight_JAC_5,JAC,WY,Jackson,4,486
+Flight_JAC_6,JAC,WY,Jackson,5,501
+Flight_JAC_7,JAC,WY,Jackson,6,498
+Flight_JAC_8,JAC,WY,Jackson,7,487
+Flight_JAC_9,JAC,WY,Jackson,8,382
+Flight_JAC_10,JAC,WY,Jackson,9,388
+Flight_JAC_11,JAC,WY,Jackson,10,366
+Flight_JAC_12,JAC,WY,Jackson,11,312
+Flight_JAC_13,JAC,WY,Jackson,12,398
+Flight_JAC_14,JAC,WY,Jackson,13,316
+Flight_BZN_1,BZN,MT,Bozeman,0,296
+Flight_BZN_2,BZN,MT,Bozeman,1,284
+Flight_BZN_3,BZN,MT,Bozeman,2,277
+Flight_BZN_4,BZN,MT,Bozeman,3,227
+Flight_BZN_5,BZN,MT,Bozeman,4,254
+Flight_BZN_6,BZN,MT,Bozeman,5,289
+Flight_BZN_7,BZN,MT,Bozeman,6,267
+Flight_BZN_8,BZN,MT,Bozeman,7,299
+Flight_BZN_9,BZN,MT,Bozeman,8,248
+Flight_BZN_10,BZN,MT,Bozeman,9,209
+Flight_BZN_11,BZN,MT,Bozeman,10,243
+Flight_BZN_12,BZN,MT,Bozeman,11,258
+Flight_BZN_13,BZN,MT,Bozeman,12,212
+Flight_BZN_14,BZN,MT,Bozeman,13,284
+Flight_SAF_1,SAF,CA,San Francisco,0,328
+Flight_SAF_2,SAF,CA,San Francisco,1,296
+Flight_SAF_3,SAF,CA,San Francisco,2,286
+Flight_SAF_4,SAF,CA,San Francisco,3,246
+Flight_SAF_5,SAF,CA,San Francisco,4,286
+Flight_SAF_6,SAF,CA,San Francisco,5,296
+Flight_SAF_7,SAF,CA,San Francisco,6,286
+Flight_SAF_8,SAF,CA,San Francisco,7,268
+Flight_SAF_9,SAF,CA,San Francisco,8,246
+Flight_SAF_10,SAF,CA,San Francisco,9,266
+Flight_SAF_11,SAF,CA,San Francisco,10,264
+Flight_SAF_12,SAF,CA,San Francisco,11,238
+Flight_SAF_13,SAF,CA,San Francisco,12,264
+Flight_SAF_14,SAF,CA,San Francisco,13,263
+Flight_ABQ_1,ABQ,NM,Albuquerque,0,298
+Flight_ABQ_2,ABQ,NM,Albuquerque,1,288
+Flight_ABQ_3,ABQ,NM,Albuquerque,2,268
+Flight_ABQ_4,ABQ,NM,Albuquerque,3,226
+Flight_ABQ_5,ABQ,NM,Albuquerque,4,264
+Flight_ABQ_6,ABQ,NM,Albuquerque,5,288
+Flight_ABQ_7,ABQ,NM,Albuquerque,6,248
+Flight_ABQ_8,ABQ,NM,Albuquerque,7,256
+Flight_ABQ_9,ABQ,NM,Albuquerque,8,256
+Flight_ABQ_10,ABQ,NM,Albuquerque,9,267
+Flight_ABQ_11,ABQ,NM,Albuquerque,10,213
+Flight_ABQ_12,ABQ,NM,Albuquerque,11,268
+Flight_ABQ_13,ABQ,NM,Albuquerque,12,264
+Flight_ABQ_14,ABQ,NM,Albuquerque,13,269
+Flight_BOS_1,BOS,MA,Boston,0,288
+Flight_BOS_2,BOS,MA,Boston,1,268
+Flight_BOS_3,BOS,MA,Boston,2,246
+Flight_BOS_4,BOS,MA,Boston,3,209
+Flight_BOS_5,BOS,MA,Boston,4,206
+Flight_BOS_6,BOS,MA,Boston,5,298
+Flight_BOS_7,BOS,MA,Boston,6,202
+Flight_BOS_8,BOS,MA,Boston,7,212
+Flight_BOS_9,BOS,MA,Boston,8,244
+Flight_BOS_10,BOS,MA,Boston,9,206
+Flight_BOS_11,BOS,MA,Boston,10,268
+Flight_BOS_12,BOS,MA,Boston,11,264
+Flight_BOS_13,BOS,MA,Boston,12,254
+Flight_BOS_14,BOS,MA,Boston,13,232
+Flight_BTV_1,BTV,VT,Burlington,0,298
+Flight_BTV_2,BTV,VT,Burlington,1,268
+Flight_BTV_3,BTV,VT,Burlington,2,288
+Flight_BTV_4,BTV,VT,Burlington,3,284
+Flight_BTV_5,BTV,VT,Burlington,4,264
+Flight_BTV_6,BTV,VT,Burlington,5,278
+Flight_BTV_7,BTV,VT,Burlington,6,274
+Flight_BTV_8,BTV,VT,Burlington,7,264
+Flight_BTV_9,BTV,VT,Burlington,8,268
+Flight_BTV_10,BTV,VT,Burlington,9,269
+Flight_BTV_11,BTV,VT,Burlington,10,263
+Flight_BTV_12,BTV,VT,Burlington,11,258
+Flight_BTV_13,BTV,VT,Burlington,12,248
+Flight_BTV_14,BTV,VT,Burlington,13,230
+Flight_SEA_1,SEA,WA,Seattle,0,188
+Flight_SEA_2,SEA,WA,Seattle,1,186
+Flight_SEA_3,SEA,WA,Seattle,2,187
+Flight_SEA_4,SEA,WA,Seattle,3,183
+Flight_SEA_5,SEA,WA,Seattle,4,193
+Flight_SEA_6,SEA,WA,Seattle,5,194
+Flight_SEA_7,SEA,WA,Seattle,6,196
+Flight_SEA_8,SEA,WA,Seattle,7,180
+Flight_SEA_9,SEA,WA,Seattle,8,181
+Flight_SEA_10,SEA,WA,Seattle,9,182
+Flight_SEA_11,SEA,WA,Seattle,10,183
+Flight_SEA_12,SEA,WA,Seattle,11,159
+Flight_SEA_13,SEA,WA,Seattle,12,198
+Flight_SEA_14,SEA,WA,Seattle,13,189
