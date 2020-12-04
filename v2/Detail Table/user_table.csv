@@ -1,17 +1,101 @@
-"User_ID","Name","Gender","Sports_Type","IKON","EPIC","MTC","Residency_City","Vehicle_Passenger_Count","Companies","Prefered_Airlines","Airline_Membership","Free_Checked_Bags","Car_Rental_Membership","Favorite_resort","Top_to_go_Resort","Favorite_Terrain"
-"1","Ada","Female","Snowboard","Y","N","N","Canton","7","Ford","Delta","Y","4","Coscto","Snowbird","Jackson Hole","Park"
-"2","Bob","Male","Ski","N","Y","N","Auburn Hills","5","FCA","Delta","N","0","Coscto","Alta","Jackson Hole","Trees"
-"3","Carl","Male","Ski","Y","Y","N","Auburn Hills","7","FCA","NULL","N","0","Coscto","Alta","Squaw Valley","Trees"
-"4","Dan","Female","Ski","N","N","N","Auburn Hills","5","FCA","NULL","Y","3","Coscto","Alta","Jackson Hole","Trees"
-"5","Eva","Female","Ski","Y","N","Y","Taylor","5","Ford","Delta","Y","2","Coscto","Jackson Hole","Taos","Trees"
-"6","Frank","Male","Ski","Y","N","N","Taylor","5","Ford","Spirit","N","0","Coscto","Jackson Hole","Telluride","Trees"
-"7","Garry","Male","Ski","Y","N","N","Dearborn","5","Ford","Spirit","N","0","Coscto","Taos","Alta","Trees"
-"8","Hanck","Male","Snowboard","Y","N","N","Dearborn","5","Ford","NULL","Y","1","Coscto","Jackson Hole","Taos","Park"
-"9","Ian","Male","Snowboard","Y","N","N","Novi","7","Ford","Spirit","N","0","Enterprise","Big Sky","Brighton ","Park"
-"10","Jane","Female","Ski","Y","N","N","Novi","5","GM","Delta","N","0","NULL","Aspen Snowmass","Jackson Hole","Cliff"
-"11","Kevin","Male","Ski","N","Y","N","Novi","5","GM","Delta","N","0","Enterprise","Squaw Valley","Jackson Hole","Cliff"
-"12","Larry","Male","Ski","N","Y","N","Southfield","7","Bosch","AA","Y","2","NULL","Telluride","Jackson Hole","Cliff"
-"13","Mary","Female","Snowboard","N","Y","N","Southfield","5","Bosch","NULL","N","0","Hertz","Brighton","Squaw Valley","Trees"
-"14","Nancy","Female","Snowboard","Y","N","Y","Canton","5","Ford","UA","N","0","Hertz","Brighton","Grand Targhee","Trees"
-"15","Oliva","Female","Ski","N","N","Y","Canton","5","Ford","UA","Y","2","NULL","Steamboat","Snowbird","Trees"
-"16","Peter","Male","Snowboard","N","Y","Y","Canton","5","Ford","UA","N","0","NULL","Winter Park","Snowbird","Trees"
+User_ID,Name,gender,Sports_Type,IKON,EPIC,MTC,Residency_City,Companies,Preferred_Airlines,Free_Checked_Bags,Favorite_Dest_State,Favorite_Resort,Top_to_go_Resort,Favorite_Terrian
+USER_1,Derek Harrison,female,ski,N,N,N,Northville,FCA,AA,4,ME,Sugarbush,Deer Valley,Park 
+USER_2,Ceri Chase,female,snowboard,N,Y,Y,Northville,Aptiv,NULL,2,WY,Northstar,Vail,Powder
+USER_3,Taya Kaur,female,snowboard,N,N,Y,Canton,Aptiv,Delta,3,WA,Taos,Stevens Pass,Trees
+USER_4,Maxim Patterson,male,snowboard,N,Y,N,Novi,FCA,UA,3,UT,Taos,Killington,Groomer
+USER_5,Israel Ayers,male,snowboard,N,N,N,Canton,GM,Delta,2,ME,Arapahoe Basin,Stevens Pass,Powder
+USER_6,Huey Handley,male,ski,N,Y,Y,Dearborn,Ford,NULL,1,NM,Big Sky,Arapahoe Basin,Cliff
+USER_7,Ela Pruitt,male,snowboard,N,Y,N,Taylor,Ford,Delta,4,NM,Heavenly,Snowbird,Cliff
+USER_8,Riaz Lester,male,ski,N,N,N,Novi,FCA,NULL,1,CA,Crestes Butte,June Mountain,Powder
+USER_9,Isma Roberts,male,snowboard,N,Y,N,Dearborn,FCA,UA,4,WY,Breckenridge,Aspen Snowmass,Powder
+USER_10,Megan Williamson,male,ski,Y,N,N,Northville,GM,Delta,0,CO,Vail,Snowbird,Groomer
+USER_11,Pranav Hogg,female,snowboard,N,N,Y,Livonia,FCA,AA,4,CO,Kirkwood,Big Bear,Powder
+USER_12,Faisal Legge,female,snowboard,N,Y,N,Farmington,FCA,Spirit,2,CO,Stevens Pass,Telluride,Cliff
+USER_13,Vinnie Mccoy,male,snowboard,Y,N,N,Livonia,FCA,Delta,3,VT,Northstar,Breckenridge,Trees
+USER_14,Jorden Baker,male,ski,N,Y,Y,Dearborn,GM,Spirit,2,ME,Stowe,Taos,Powder
+USER_15,Whitney Briggs,female,snowboard,Y,Y,N,Livonia,Aptiv,Delta,0,WY,Okemo,Snowbasin,Park 
+USER_16,Jeremiah Stacey,female,ski,N,N,Y,Northville,Aptiv,Spirit,4,ME,Snowbird,Mt. Snow,Trees
+USER_17,Zayan Hutchinson,female,ski,N,Y,N,Taylor,GM,UA,0,CA,Stowe,Deer Valley,Park 
+USER_18,Myron Terry,female,snowboard,N,Y,N,Farmington,GM,Delta,0,CO,Stratton,Sugarbush,Park 
+USER_19,Heidi Sellers,male,ski,Y,N,N,Taylor,Ford,Spirit,4,UT,Deer Valley,Cystal Mountain,Cliff
+USER_20,Lenny Rossi,female,ski,Y,Y,N,Northville,Ford,UA,0,ME,Okemo,Big Sky,Trees
+USER_21,Micheal Bright,female,snowboard,Y,Y,N,Northville,Bosch,UA,4,UT,Solitude,Beaver Creek,Groomer
+USER_22,Kaira Raymond,female,snowboard,Y,N,Y,Novi,Aptiv,Delta,4,NM,Okemo,Vail,Groomer
+USER_23,Bianka Cresswell,female,ski,Y,Y,N,Novi,Aptiv,Spirit,1,CA,Grand Targhee,Squaw Valley,Park 
+USER_24,Serenity Shepard,female,snowboard,Y,Y,N,Northville,Bosch,Delta,2,VT,Mt. Snow,June Mountain,Powder
+USER_25,Lennox Holder,male,snowboard,Y,Y,N,Livonia,Ford,Delta,2,CO,Mt. Snow,Snowbird,Cliff
+USER_26,Siena Flores,male,ski,N,Y,Y,Canton,Bosch,Delta,2,CA,Jackson Hole,Mammoth,Trees
+USER_27,Morris Allison,female,snowboard,N,N,N,Livonia,Aptiv,Delta,1,ME,Vail,Stevens Pass,Park 
+USER_28,Barney Nunez,male,snowboard,N,Y,Y,Northville,FCA,NULL,2,CA,Snowbird,Crestes Butte,Cliff
+USER_29,Eilish Humphries,male,ski,Y,Y,N,Novi,Bosch,UA,4,VT,Squaw Valley,Mt. Snow,Groomer
+USER_30,Krystian Drew,male,snowboard,Y,N,N,Taylor,Bosch,NULL,2,WY,Kirkwood,Beaver Creek,Park 
+USER_31,Orlaith Collier,female,ski,Y,N,Y,Livonia,Aptiv,Spirit,3,WY,Winter Park,Snoqualmie,Park 
+USER_32,Michalina Maldonado,female,ski,N,Y,N,Northville,Ford,UA,3,VT,Stowe,Deer Valley,Trees
+USER_33,Benedict Frye,female,ski,Y,N,N,Dearborn,Bosch,AA,3,MT,Crestes Butte,Cystal Mountain,Park 
+USER_34,Alison Rasmussen,male,ski,Y,Y,Y,Livonia,Ford,NULL,2,CO,Big Sky,Cystal Mountain,Powder
+USER_35,Bradleigh Kaufman,female,snowboard,Y,N,Y,Auburn Hills,Aptiv,Spirit,4,MT,Beaver Creek,Park City,Powder
+USER_36,Zoe Ferrell,male,snowboard,N,N,N,Northville,Aptiv,Delta,4,MT,Snowbird,Solitude,Park 
+USER_37,Ruby-May Bates,female,snowboard,N,N,Y,Livonia,Ford,Spirit,0,WY,Brighton,Stratton,Park 
+USER_38,Luke Wells,female,ski,N,N,N,Northville,GM,UA,4,VT,Heavenly,Eldora Mountain,Powder
+USER_39,Ted Doyle,male,ski,N,Y,Y,Farmington,Aptiv,UA,4,WY,Steamboat,Sugarloaf,Park 
+USER_40,Mustafa Lovell,female,snowboard,Y,Y,Y,Livonia,GM,NULL,4,NM,Big Bear,Northstar,Groomer
+USER_41,Benny Reed,female,snowboard,Y,N,N,Dearborn,Ford,NULL,3,NM,Brighton,Stevens Pass,Park 
+USER_42,Avani Haney,female,snowboard,Y,N,Y,Livonia,GM,AA,1,CA,Keystone,Snowbasin,Groomer
+USER_43,Glen Moreno,male,ski,N,N,N,Canton,Bosch,UA,3,NM,Taos,Squaw Valley,Park 
+USER_44,Aston Cornish,female,snowboard,Y,N,N,Taylor,Bosch,AA,3,WY,Aspen Snowmass,Telluride,Park 
+USER_45,Yvonne Dillard,male,snowboard,N,N,N,Canton,GM,AA,4,NM,Northstar,Heavenly,Powder
+USER_46,Elina Rubio,male,ski,N,N,N,Northville,Aptiv,AA,0,NM,Telluride,Crestes Butte,Trees
+USER_47,Miah Rosales,female,snowboard,N,N,N,Taylor,FCA,UA,4,CO,Mammoth,Breckenridge,Cliff
+USER_48,Lyla-Rose Walmsley,male,snowboard,Y,Y,Y,Taylor,FCA,UA,4,UT,Brighton,Copper Mountain,Groomer
+USER_49,Mariella Steele,female,snowboard,Y,N,N,Auburn Hills,Ford,Spirit,0,MT,Killington,Snowbasin,Groomer
+USER_50,Margie Matthews,female,ski,N,Y,N,Farmington,Ford,Spirit,1,ME,Alta,Aspen Snowmass,Park 
+USER_51,Danny Hodgson,male,ski,Y,Y,Y,Auburn Hills,Bosch,UA,1,VT,Vail,Alta,Groomer
+USER_52,Catriona Cleveland,male,ski,N,Y,Y,Northville,Aptiv,Spirit,4,VT,Big Bear,June Mountain,Trees
+USER_53,Grady Mills,male,snowboard,Y,Y,Y,Taylor,FCA,Delta,0,WY,Winter Park,Eldora Mountain,Groomer
+USER_54,Ned Torres,male,snowboard,Y,Y,Y,Canton,Aptiv,NULL,3,WY,Park City,Stowe,Park 
+USER_55,Nikola Hulme,male,ski,Y,N,N,Northville,FCA,Spirit,3,MT,Northstar,Arapahoe Basin,Cliff
+USER_56,Reiss Cervantes,male,snowboard,Y,Y,Y,Northville,Ford,AA,2,CA,Crestes Butte,Crestes Butte,Park 
+USER_57,Shahzaib Kline,male,snowboard,Y,Y,N,Auburn Hills,Aptiv,Delta,4,CA,Park City,Cystal Mountain,Groomer
+USER_58,Seth Conner,male,snowboard,Y,N,N,Auburn Hills,Ford,Delta,1,VT,Brighton,Breckenridge,Park 
+USER_59,Dominic Cabrera,male,ski,N,Y,Y,Canton,GM,Delta,1,VT,Cystal Mountain,Arapahoe Basin,Cliff
+USER_60,Erin Justice,male,ski,Y,N,Y,Farmington,Ford,Delta,0,MT,Mt. Snow,Beaver Creek,Park 
+USER_61,Kiera Hansen,male,ski,Y,Y,Y,Northville,GM,NULL,1,WY,Jackson Hole,Arapahoe Basin,Powder
+USER_62,Sheikh Finnegan,female,snowboard,Y,N,Y,Novi,FCA,Delta,3,ME,Okemo,Squaw Valley,Powder
+USER_63,Yasser Redmond,male,ski,Y,N,Y,Canton,Ford,NULL,1,WA,June Mountain,Stowe,Groomer
+USER_64,Wren Li,male,snowboard,Y,N,N,Northville,Aptiv,UA,4,VT,Stowe,Winter Park,Park 
+USER_65,Abi Mair,male,ski,N,N,Y,Canton,GM,NULL,0,ME,Arapahoe Basin,Kirkwood,Groomer
+USER_66,Nile Allman,female,snowboard,N,Y,N,Auburn Hills,GM,NULL,3,CO,June Mountain,Sunday River,Cliff
+USER_67,Samah Tait,male,ski,N,Y,N,Livonia,Aptiv,Delta,1,NM,Stratton,Beaver Creek,Trees
+USER_68,Anees Shannon,male,ski,Y,N,N,Novi,Bosch,NULL,4,NM,Alta,Steamboat,Cliff
+USER_69,Haider Salazar,female,snowboard,N,Y,N,Farmington,FCA,UA,4,CO,Mammoth,Vail,Powder
+USER_70,Letitia Padilla,female,ski,Y,N,Y,Canton,FCA,NULL,4,UT,Snowbasin,Deer Valley,Powder
+USER_71,Shantelle Cantu,male,ski,Y,N,Y,Novi,Bosch,Spirit,0,CA,Snowbasin,Vail,Trees
+USER_72,Anwar Estes,male,ski,Y,Y,Y,Northville,Bosch,Delta,0,VT,Aspen Snowmass,Kirkwood,Groomer
+USER_73,Brendan Herman,male,snowboard,N,N,N,Taylor,GM,AA,3,NM,Crestes Butte,Aspen Snowmass,Cliff
+USER_74,Fatimah Worthington,female,ski,Y,Y,N,Taylor,GM,NULL,0,UT,Winter Park,Sunday River,Cliff
+USER_75,Suleman Corbett,female,ski,N,Y,N,Canton,FCA,Delta,0,CO,Snowbasin,Copper Mountain,Park 
+USER_76,Aden Conley,female,ski,Y,Y,Y,Livonia,FCA,NULL,2,UT,Telluride,Park City,Trees
+USER_77,Baran Aldred,female,ski,Y,N,N,Northville,GM,UA,0,CO,Crestes Butte,Stowe,Groomer
+USER_78,Alicja Simpson,male,snowboard,N,N,N,Farmington,FCA,UA,0,WY,Solitude,Keystone,Cliff
+USER_79,Kyron Warren,male,ski,N,N,Y,Dearborn,Bosch,UA,1,MT,Okemo,Brighton,Trees
+USER_80,Moshe Mccarthy,male,ski,N,N,Y,Farmington,FCA,Spirit,2,VT,Squaw Valley,Squaw Valley,Park 
+USER_81,Ivan Coleman,male,ski,N,Y,N,Novi,Ford,Delta,1,UT,Park City,Sugarloaf,Trees
+USER_82,Erika Rowland,female,snowboard,Y,N,N,Novi,Ford,NULL,0,MT,Eldora Mountain,Cystal Mountain,Trees
+USER_83,Millicent Munoz,female,snowboard,N,Y,N,Canton,Bosch,Spirit,0,MT,Jackson Hole,Beaver Creek,Park 
+USER_84,Lorena Mullins,male,snowboard,Y,N,N,Northville,GM,Spirit,4,MT,Kirkwood,Snoqualmie,Cliff
+USER_85,Lacey Piper,female,snowboard,N,Y,N,Farmington,FCA,AA,0,WY,Sugarloaf,Stratton,Cliff
+USER_86,Azaan Hale,male,snowboard,N,Y,N,Canton,Ford,UA,0,CO,Steamboat,Jackson Hole,Park 
+USER_87,Sofija Rose,female,snowboard,N,Y,Y,Dearborn,GM,AA,3,WA,Mammoth,Killington,Groomer
+USER_88,Cayson Mccartney,male,ski,Y,Y,Y,Farmington,Bosch,UA,2,NM,Killington,Eldora Mountain,Groomer
+USER_89,Zavier Cardenas,male,ski,Y,N,N,Canton,Bosch,UA,0,NM,Stowe,Cystal Mountain,Groomer
+USER_90,Alister Woodard,male,snowboard,Y,Y,Y,Dearborn,Ford,Delta,1,WY,Stratton,Stratton,Powder
+USER_91,Jardel Parrish,female,ski,N,N,N,Canton,Bosch,UA,0,WY,Breckenridge,Arapahoe Basin,Trees
+USER_92,Georgia Skinner,female,ski,N,Y,Y,Novi,GM,AA,3,CA,Mt. Snow,Squaw Valley,Trees
+USER_93,Maddison Xiong,female,snowboard,N,N,N,Northville,Aptiv,NULL,1,UT,Arapahoe Basin,Eldora Mountain,Park 
+USER_94,Kamron Benson,female,ski,N,N,N,Canton,Bosch,Delta,1,UT,Copper Mountain,Deer Valley,Park 
+USER_95,Blade Parks,female,ski,Y,N,N,Farmington,Bosch,Delta,4,WA,Vail,Northstar,Powder
+USER_96,Ava-May Winter,male,snowboard,N,N,N,Northville,Aptiv,AA,3,VT,Brighton,Aspen Snowmass,Park 
+USER_97,Harpreet Pickett,female,ski,Y,N,N,Dearborn,GM,UA,2,UT,Solitude,Sugarbush,Cliff
+USER_98,Patricia Charlton,male,snowboard,Y,N,Y,Auburn Hills,GM,AA,3,CA,Aspen Snowmass,Brighton,Park 
+USER_99,Yannis Spears,female,snowboard,Y,N,N,Taylor,Ford,NULL,4,ME,Copper Mountain,Sugarbush,Trees
+USER_100,Akeel Barajas,male,snowboard,N,Y,N,Northville,FCA,UA,2,VT,Vail,Sugarbush,Cliff

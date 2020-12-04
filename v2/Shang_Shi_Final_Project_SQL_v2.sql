@@ -42,18 +42,16 @@ IKON CHAR(1),
 EPIC CHAR(1),
 MTC CHAR(1),
 Residency_City VARCHAR(20) not null,
-Vehicle_Passenger_Count INT,
 Companies VARCHAR(20),
 Prefered_Airlines VARCHAR(20),
-Airline_Membership VARCHAR(100),
 Free_Checked_Bags INT,
-Car_Rental_Membership VARCHAR(20),
-Favorite_resort VARCHAR(100) not null,
-Top_to_go_Resort VARCHAR(100) not null,
-Favorite_Terrain VARCHAR(100)
+Favorite_Dest_State CHAR(2),
+Favorite_resort VARCHAR(20) not null,
+Top_to_go_Resort VARCHAR(20) not null,
+Favorite_Terrain VARCHAR(20)
 );
 
-COPY User_Table( User_ID, Name, Gender, Sports_Type,IKON, EPIC, MTC, Residency_City,Vehicle_Passenger_Count,Companies,Prefered_Airlines,Airline_Membership,Free_Checked_Bags,Car_Rental_Membership,Favorite_resort,Top_to_go_Resort,Favorite_Terrain)
+COPY User_Table( User_ID, Name, Gender, Sports_Type,IKON, EPIC, MTC, Residency_City,Companies,Prefered_Airlines,Free_Checked_Bags,Favorite_Dest_State,Favorite_resort,Top_to_go_Resort,Favorite_Terrain)
 from 'C:\Users\stone\OneDrive\Desktop\UMD Semester 4\CIS556\projects\Final Project\V2 Git\Detail Table\User_Table.csv'
 DELIMITER ','
 CSV HEADER;
@@ -110,43 +108,145 @@ select * from User_Table;
 select * from Trip_Table;
 
 
---Query 1 find which resort is the cheapest to travel to but with most snow,
---meanwhile the travel time from airport to resorts are as short as possible.
-select sum(st.snow_amount) Sum_snow, 
-	   ft.price,
-       st.resorts, 
-	   st.state,
-	   rit.ikon,
-	   rit.epic,
-	   rit.mtc,
-	   rit.snowboarders,
-	   rait.airport,
-	   rait.distance_hrs   
-from Resort_Info_Table rit,
-	 Snow_Table st,
-     trip_table tt,
-	 Resort_Airport_Info_Table rait,
-	 Flight_Table ft
-where rit.resort = st.resorts
-and   rit.state = st.state
-and   rit.resort = rait.resort
-and   rit.state = rait.state
-and   rait.airport = ft.airport_code
-and   st.future_day between tt.departure_date and tt.return_date
-and	  ft.future_day = tt.departure_date
-and   tt.trip_id = 'WEST_1'
-group by st.resorts, 
-		 ft.price,
-		 st.state, 
-		 rit.ikon,
-		 rit.epic,
-		 rit.mtc,
-		 rit.snowboarders,
-		 rait.airport,
-		 rait.distance_hrs 
+--Query 1: Assume the trip is only to the west side of US in the trip table,
+		 --Find the top 5 resorts that has the highest snow/price ratio,
+		 --meanwhile the travel time from airport to resorts are as short as possible.
+		 --Assume snow is the first priority, price is the second, distance is the third. 
+
+	create view top_5_value_resorts as
+		select top_sp_ratio_table.* 
+		from  (
+			select sum(st.snow_amount) as Sum_snow, 
+				   ft.price,
+				   round(sum(st.snow_amount)/ft.price*100,1) as sp_ratio,
+				   st.resorts, 
+				   rait.airport,
+				   rait.distance_hrs,  
+				   st.state,
+				   rit.ikon,
+				   rit.epic,
+				   rit.mtc,
+				   rit.snowboarders
+			from Resort_Info_Table rit,
+				 Snow_Table st,
+				 trip_table tt,
+				 Resort_Airport_Info_Table rait,
+				 Flight_Table ft
+			where rit.resort = st.resorts
+			and   rit.state = st.state
+			and   rit.resort = rait.resort
+			and   rit.state = rait.state
+			and   rait.airport = ft.airport_code
+			and   st.future_day between tt.departure_date and tt.return_date
+			and	  ft.future_day = tt.departure_date
+			and   tt.trip_id = 'WEST_1'
+			group by st.resorts, 
+					 ft.price,
+					 st.state, 
+					 rit.ikon,
+					 rit.epic,
+					 rit.mtc,
+					 rit.snowboarders,
+					 rait.airport,
+					 rait.distance_hrs
+			order by sp_ratio desc, distance_hrs DESC
+		) top_sp_ratio_table
+	limit 5;
+	
+	select * from top_5_value_resorts;
+	
+--Query 2: Find the skiers/snowboarders' info who could go to the resort that has max sp_ratio, and the resort info.
+
+	--my initial thought is shown in below query 'First try', after hours of searching, I thought "limit 1" cuased 
+	--the result shown in below query, so I use max() instead of "limit 1" in the most inner query where it returns 
+	--the max sp_ratio. but the result is still the same. 
+	
+	--after hours of searching I found the issue, I thought my first try query should be equivalent to below.
+				select *
+				from user_table
+				where ikon='Y'
+	--but it is not, the reson is that the 'IKON' (result) I get from the subquery is a string, but the ikon in above query is
+	--a column header, they are not the same data type. so in my first try query, there is no column as string 'IKON'.
+	--This simple error is a huge time killer so I figure I put it here as a reference and remind me. 
+		
+	--First try (Incorrect)
+	select *
+	from user_table
+	where	
+		(
+		 select pnt.pass_name --this returns the pass name that has 'Y', which is 'IKON'
+		 from
+			(
+				select rit.ikon, rit.epic, rit.mtc, 
+					case 
+						when ikon = 'Y' then 'IKON'
+						when epic = 'Y' then 'EPIC'
+						when mtc = 'Y' then 'MTC'
+					end as pass_name
+				from resort_info_table rit
+				where resort = (
+					select tvr.resorts	--this return the resort that has max sp_ratio
+					from top_5_value_resorts tvr
+					group by tvr.resorts, tvr.sp_ratio
+					having sp_ratio=(
+									 select max(sp_ratio) as max_sp --this returns the max sp_ratio
+									 from top_5_value_resorts 
+									)	
+								) 
+			)as pnt
+		) = 'Y'
+	
+	--I found the similar problem https://stackoverflow.com/questions/32639855/join-tables-by-column-names-convert-string-to-column-name
+	--Then I searched for UNPIVOT in postgreSQL, I found this https://stackoverflow.com/questions/1128737/unpivot-and-postgresql
+	--I got inspiration for the second try, now it finally works and it is generic, cover any resorts
+	
+	
+	--Second try (Correct)
+	select ait.user_id, ait.name, ait.gender, ait.sports_type, ait.companies, ait.free_checked_bags, ait.resorts, ait.sum_snow, ait.price
+	from
+		(
+		select *
+		From User_Table as ut
+		INNER JOIN (
+			select * from top_5_value_resorts limit 1
+					) as best_value_resort  
+			on best_value_resort.IKON='Y' AND ut.IKON =best_value_resort.IKON
+		UNION
+		select *
+		From User_Table as ut
+		INNER JOIN (
+			select * from top_5_value_resorts limit 1
+					) as best_value_resort 
+			on best_value_resort.MTC='Y' AND ut.MTC =best_value_resort.MTC
+		UNION
+		select *
+		From User_Table as ut
+		INNER JOIN (
+			select * from top_5_value_resorts limit 1
+					) as best_value_resort  
+		on best_value_resort.EPIC='Y' AND ut.EPIC =best_value_resort.EPIC
+		) as ait 			--ait as all_info_table
+	group by ait.user_id, ait.name, ait.gender, ait.sports_type, ait.companies, ait.free_checked_bags, ait.resorts, ait.sum_snow, ait.price
+	order by ait.companies, ait.sports_type, ait.gender
+	
+	--from above query, I can easily have the users to organize trips very custimizable. 
 
 
+--Query 3: Find out who doesn't own a pass, meanwhile find out what passes does his/her
+--colleague own, which pass is the most popular pass among his colleague, thus based on 
+--his colleague's pass and his preference, recommand him a best value pass to buy.
 
+	
+	select np.user_id, np.companies, np.ikon, np.epic, np.mtc	-- This query find out who doesn't own a pass
+	from 
+		(select *,
+			case 
+				when ikon = 'N' and epic='N'and mtc = 'N' then 'no pass'
+			end as no_pass
+		from user_table ut) as np
+	where np.no_pass = 'no pass'
+	group by np.user_id, np.companies,np.ikon, np.epic, np.mtc
+	order by np.companies
 
 
 
