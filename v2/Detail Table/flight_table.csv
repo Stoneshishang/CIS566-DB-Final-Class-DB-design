@@ -1,4 +1,4 @@
-Flight_ID,Airport Code,State,City,Future_Day,Price
+Flight_ID,Airport_Code,State,City,Future_Day,Price
 Flight_DEN_1,DEN,CO,Denver,0,295
 Flight_DEN_2,DEN,CO,Denver,1,275
 Flight_DEN_3,DEN,CO,Denver,2,200

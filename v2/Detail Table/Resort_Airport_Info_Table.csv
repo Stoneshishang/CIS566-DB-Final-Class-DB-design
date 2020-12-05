@@ -1,53 +1,53 @@
-"R_A_ID","Resort","State","Airport","Distance_hrs"
-"CO_DEN_1","Arapahoe Basin","CO","DEN","1.5"
-"CO_DEN_2","Aspen Snowmass","CO","DEN","3.5"
-"CO_ASE_1","Aspen Snowmass","CO","ASE","0.2"
-"CO_DEN_3","Beaver Creek","CO","DEN","2.5"
-"CO_DEN_4","Breckenridge","CO","DEN","2.1"
-"CO_DEN_5","Copper Mountain","CO","DEN","1.9"
-"CO_DEN_6","Crestes Butte","CO","DEN","4.5"
-"CO_DEN_7","Eldora Mountain","CO","DEN","0.7"
-"CO_DEN_8","Keystone","CO","DEN","2.25"
-"CO_DEN_9","Steamboat","CO","DEN","3.3"
-"CO_HDN_1","Steamboat","CO","HDN","0.6"
-"CO_DEN_10","Telluride","CO","DEN","6.5"
-"CO_MTJ_1","Telluride","CO","MTJ","1.5"
-"CO_DEN_11","Vail","CO","DEN","2.1"
-"CO_DEN_12","Winter Park","CO","DEN","1.7"
-"UT_SLC_1","Alta","UT","SLC","0.8"
-"UT_SLC_2","Brighton","UT","SLC","0.9"
-"UT_SLC_3","Deer Valley","UT","SLC","1.5"
-"UT_SLC_4","Park City","UT","SLC","1.3"
-"UT_SLC_5","Snowbird","UT","SLC","0.6"
-"UT_SLC_6","Snowbasin","UT","SLC","0.8"
-"UT_SLC_7","Solitude","UT","SLC","0.7"
-"CA_LAX_1","Big Bear","CA","LAX","2.5"
-"CA_RNO_1","June Mountain","CA","RNO","3"
-"CA_RNO_2","Heavenly","CA","RNO","1.1"
-"CA_RNO_3","Kirkwood","CA","RNO","1.5"
-"CA_RNO_4","Mammoth","CA","RNO","3.1"
-"CA_RNO_5","Northstar","CA","RNO","0.9"
-"CA_RNO_6","Squaw Valley","CA","RNO","0.9"
-"CA_SMF_1","Heavenly","CA","SMF","2.1"
-"CA_SMF_2","Kirkwood","CA","SMF","2.2"
-"CA_SMF_3","Northstar","CA","SMF","1.7"
-"CA_SMF_4","Squaw Valley","CA","SMF","1.7"
-"WY_JAC_1","Jackson Hole","WY","JAC","0.5"
-"WY_JAC_2","Grand Targhee","WY","JAC","1.4"
-"MT_BZN_1","Big Sky","MT","BZN","0.9"
-"NM_SAF_1","Taos","NM","SAF","1.9"
-"NM_ABQ_1","Taos","NM","ABQ","2.8"
-"VT_BOS_1","Killington","VT","BOS","3"
-"VT_BOS_2","Stratton","VT","BOS","3.3"
-"VT_BOS_3","Sugarbush","VT","BOS","3.25"
-"VT_BOS_4","Stowe","VT","BOS","3.5"
-"VT_BOS_5","Okemo","VT","BOS","2.9"
-"VT_BOS_6","Mt. Snow","VT","BOS","2.9"
-"VT_BOS_7","Sugarloaf","ME","BOS","4.2"
-"VT_BOS_8","Sunday River","ME","BOS","3.4"
-"VT_BTV_1","Killington","VT","BTV","1.8"
-"VT_BTV_2","Sugarbush","VT","BTV","1"
-"VT_BTV_3","Stowe","VT","BTV","1"
-"WA_SEA_1","Cystal Mountain","WA","SEA","2.8"
-"WA_SEA_2","Snoqualmie","WA","SEA","0.9"
-"WA_SEA_3","Stevens Pass","WA","SEA","1.7"
+R_A_ID,Resort,State,Airport,Distance_hrs
+CO_DEN_1,Arapahoe Basin,CO,DEN,1.5
+CO_DEN_2,Aspen Snowmass,CO,DEN,3.5
+CO_ASE_1,Aspen Snowmass,CO,ASE,0.2
+CO_DEN_3,Beaver Creek,CO,DEN,2.5
+CO_DEN_4,Breckenridge,CO,DEN,2.1
+CO_DEN_5,Copper Mountain,CO,DEN,1.9
+CO_DEN_6,Crestes Butte,CO,DEN,4.5
+CO_DEN_7,Eldora Mountain,CO,DEN,0.7
+CO_DEN_8,Keystone,CO,DEN,2.25
+CO_DEN_9,Steamboat,CO,DEN,3.3
+CO_HDN_1,Steamboat,CO,HDN,0.6
+CO_DEN_10,Telluride,CO,DEN,6.5
+CO_MTJ_1,Telluride,CO,MTJ,1.5
+CO_DEN_11,Vail,CO,DEN,2.1
+CO_DEN_12,Winter Park,CO,DEN,1.7
+UT_SLC_1,Alta,UT,SLC,0.8
+UT_SLC_2,Brighton,UT,SLC,0.9
+UT_SLC_3,Deer Valley,UT,SLC,1.5
+UT_SLC_4,Park City,UT,SLC,1.3
+UT_SLC_5,Snowbird,UT,SLC,0.6
+UT_SLC_6,Snowbasin,UT,SLC,0.8
+UT_SLC_7,Solitude,UT,SLC,0.7
+CA_LAX_1,Big Bear,CA,LAX,2.5
+CA_RNO_1,June Mountain,CA,RNO,3
+CA_RNO_2,Heavenly,CA,RNO,1.1
+CA_RNO_3,Kirkwood,CA,RNO,1.5
+CA_RNO_4,Mammoth,CA,RNO,3.1
+CA_RNO_5,Northstar,CA,RNO,0.9
+CA_RNO_6,Squaw Valley,CA,RNO,0.9
+CA_SMF_1,Heavenly,CA,SMF,2.1
+CA_SMF_2,Kirkwood,CA,SMF,2.2
+CA_SMF_3,Northstar,CA,SMF,1.7
+CA_SMF_4,Squaw Valley,CA,SMF,1.7
+WY_JAC_1,Jackson Hole,WY,JAC,0.5
+WY_JAC_2,Grand Targhee,WY,JAC,1.4
+MT_BZN_1,Big Sky,MT,BZN,0.9
+NM_SAF_1,Taos,NM,SAF,1.9
+NM_ABQ_1,Taos,NM,ABQ,2.8
+VT_BOS_1,Killington,VT,BOS,3
+VT_BOS_2,Stratton,VT,BOS,3.3
+VT_BOS_3,Sugarbush,VT,BOS,3.25
+VT_BOS_4,Stowe,VT,BOS,3.5
+VT_BOS_5,Okemo,VT,BOS,2.9
+VT_BOS_6,Mt. Snow,VT,BOS,2.9
+VT_BOS_7,Sugarloaf,ME,BOS,4.2
+VT_BOS_8,Sunday River,ME,BOS,3.4
+VT_BTV_1,Killington,VT,BTV,1.8
+VT_BTV_2,Sugarbush,VT,BTV,1
+VT_BTV_3,Stowe,VT,BTV,1
+WA_SEA_1,Cystal Mountain,WA,SEA,2.8
+WA_SEA_2,Snoqualmie,WA,SEA,0.9
+WA_SEA_3,Stevens Pass,WA,SEA,1.7

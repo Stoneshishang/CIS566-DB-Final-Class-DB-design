@@ -31,7 +31,6 @@ from 'C:\Users\stone\OneDrive\Desktop\UMD Semester 4\CIS556\projects\Final Proje
 DELIMITER ','
 CSV HEADER;
 
-
 /* CREATE TABLE */
 CREATE TABLE User_Table(
 User_ID VARCHAR(10) primary key,
@@ -55,7 +54,6 @@ COPY User_Table( User_ID, Name, Gender, Sports_Type,IKON, EPIC, MTC, Residency_C
 from 'C:\Users\stone\OneDrive\Desktop\UMD Semester 4\CIS556\projects\Final Project\V2 Git\Detail Table\User_Table.csv'
 DELIMITER ','
 CSV HEADER;
-
 
 /* CREATE TABLE */
 CREATE TABLE Resort_Airport_Info_Table(
@@ -229,27 +227,53 @@ select * from Trip_Table;
 	group by ait.user_id, ait.name, ait.gender, ait.sports_type, ait.companies, ait.free_checked_bags, ait.resorts, ait.sum_snow, ait.price
 	order by ait.companies, ait.sports_type, ait.gender
 	
-	--from above query, I can easily have the users to organize trips very custimizable. 
+	--from above query, I can easily have the users to organize customized trips. 
 
 
---Query 3: Find out who doesn't own a pass, meanwhile find out what passes does his/her
---colleague own, which pass is the most popular pass among his colleague, thus based on 
---his colleague's pass and his preference, recommand him a best value pass to buy.
+--Query 3: Find out who doesn't own a pass, call them no_pass_people
+
+			select np.user_id, np.companies, np.ikon, np.epic, np.mtc
+			from
+				(
+				select *,
+					case 
+						when ikon = 'N' and epic='N'and mtc = 'N' then 'no pass'
+					end as no_pass
+				from user_table ut
+				) as np
+			where np.no_pass = 'no pass'
+			group by np.user_id, np.companies,np.ikon, np.epic, np.mtc
+			order by np.companies
+
+
+--Query 4: Recommand a pass to the no pass owner, based on the no_pass_people's colleague's most owned pass.
+--In another word, find which pass is the most owned in no_pass_people's colleague, recommand them the most owned pass.
 
 	
-	select np.user_id, np.companies, np.ikon, np.epic, np.mtc	-- This query find out who doesn't own a pass
-	from 
-		(select *,
-			case 
-				when ikon = 'N' and epic='N'and mtc = 'N' then 'no pass'
-			end as no_pass
-		from user_table ut) as np
-	where np.no_pass = 'no pass'
-	group by np.user_id, np.companies,np.ikon, np.epic, np.mtc
-	order by np.companies
-
-
-
-
+	SELECT user_id, name, sports_type, COMP_RECOM.companies, recommendation
+	FROM User_Table 
+	Left Join
+		(
+		SELECT Companies,  			    --Decide the recommandation for each company's no pass owner.
+			CASE greatest(ikon, epic, mtc)
+				  WHEN ikon  THEN 'ikon'
+				  WHEN epic  THEN 'epic'
+				  WHEN mtc   THEN 'mtc'
+			END AS recommendation
+		FROM 
+			(
+				SELECT Companies, 		-- Find the count of each pass's owner amount at each company
+					COUNT(CASE IKON WHEN 'Y' THEN 1 END) as IKON, 
+					COUNT(CASE EPIC WHEN 'Y' THEN 1 END) as EPIC, 
+					COUNT(CASE MTC WHEN 'Y' THEN 1 END) as MTC
+				 FROM User_table
+				 GROUP by Companies
+			) 
+		as COMP_COUNT
+		) 
+	as COMP_RECOM
+	on COMP_RECOM.Companies = USER_TABLE.Companies
+	Where ikon='N' AND epic='N' AND mtc='N'
+	order by COMP_RECOM.companies, sports_type
 
 
