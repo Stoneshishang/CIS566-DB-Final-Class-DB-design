@@ -1,3 +1,4 @@
-# CIS566-DB-Final-Class-DB-design
 
-DB design and implementation version control for my ski travel website.
+DB design and implementation for my ski travel website with PostgreSQL.
+
+Includes optimized ERD for effecient CRUD operation. 
